@@ -194,8 +194,8 @@ def process_video_color_tracking(video_path, segment_heights, known_segment_area
 
 
 # Example usage:
-segment_heights = [0.15, 0.25, 0.25, 0.25]          # mm
-known_segment_areas = [170.0, 13.0, 9.8, 67.4]      # mm²
+segment_heights = [0.15, 0.25, 0.25, 0.25]          # mm of depth
+known_segment_areas = [170.0, 13.0, 9.8, 67.4]      # mm² of area
 
 process_video_color_tracking(
     video_path="analysis_vid_DIRECTORY",

@@ -198,9 +198,9 @@ segment_heights = [0.15, 0.25, 0.25, 0.25]          # mm
 known_segment_areas = [170.0, 13.0, 9.8, 67.4]      # mm²
 
 process_video_color_tracking(
-    video_path="/Users/liuchenshu/Documents/Research/NUS/Jiaqi Zhang/jiaqi_vid_best.mov",
+    video_path="analysis_vid_DIRECTORY",
     segment_heights=segment_heights,
     known_segment_areas=known_segment_areas,
     frame_interval_sec=0.1,
-    output_csv="tracked_volumes_20250815.csv"
+    output_csv="analyzed_csv_file_NAME"
 )

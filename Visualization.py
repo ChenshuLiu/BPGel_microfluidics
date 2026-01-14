@@ -22,13 +22,13 @@ except:
     font_large = ImageFont.load_default()
 
 # Open video
-cap = cv2.VideoCapture("/Users/liuchenshu/Documents/Research/NUS/Jiaqi Zhang/jiaqi_vid_best.mov")
+cap = cv2.VideoCapture("analysis_vid_DIRECTORY")
 fps = cap.get(cv2.CAP_PROP_FPS)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # Output writer with original resolution
-out = cv2.VideoWriter("annotated_output_original_size_v3.mp4", cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
+out = cv2.VideoWriter("output_vid_file_NAME", cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
 
 frame_idx = 0
 
